@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+    <com.stelladk.arclib.ArcLayout
+        android:id="@+id/arcLayout"
+        android:layout_width="386dp"
+        android:layout_height="635dp"
+        android:background="@drawable/pole"
+        app:ArcRadius="30dp"
+        app:BottomLeftArc="inner"
+        app:BottomRightArc="inner"
+        app:TopLeftArc="inner"
+        app:TopRightArc="inner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.495">
+
+    </com.stelladk.arclib.ArcLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="136dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="136dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/boll" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
